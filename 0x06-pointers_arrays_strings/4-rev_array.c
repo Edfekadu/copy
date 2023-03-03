@@ -6,8 +6,7 @@
  * Return:void
  */
 void reverse_array(int *a, int *n)
-{	
-
+{
 	int i;
 	i = t;
 
