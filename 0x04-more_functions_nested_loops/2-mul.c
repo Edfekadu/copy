@@ -1,12 +1,12 @@
+#include <stdio.h>
 #include "main.h"
 /**
- *mul -multiple two integers
- *@x:The number to multiply
- *@y:the second number to multiply with frist number
- * Return: 1 for upper letter or 0 for any else
- */
-int mul(int x, int y)
+* mul - multiplies two integers
+* @a: first integer
+* @b: second integer
+* Return: addition of a and b
+*/
+int mul(int a, int b)
 {
-	return (x*y);
+	return (a * b);
 }
-

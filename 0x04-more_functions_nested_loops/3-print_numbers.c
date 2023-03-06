@@ -1,15 +1,20 @@
 #include "main.h"
+
 /**
- *print numbers 0 up to 9
- *@y:the second number to multiply with frist number
- * Return: The numbers since 0 t0 9
+ * print_line - printing lines
+ * @n: number of times
+ *
+ * Return: void
  */
-void print_numbers(void)
+
+
+void print_line(int n)
 {
-	int x;
-	for (x=0; x<=9;x++)
+	int i;
+
+	for (i = 0; i < n; i++)
 	{
-		_putchar(x + '0');
+		_putchar('_');
 	}
 	_putchar('\n');
 }

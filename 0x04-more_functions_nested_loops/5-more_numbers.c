@@ -1,22 +1,23 @@
 #include "main.h"
+
 /**
- *print numbers 0 up to 9
- *@y:the second number to multiply with frist number
- * Return: The numbers since 0 t0 9
+ * more_numbers - nmbr fct
+ * Bwave ICT file
+ * Return: no return
  */
-void most_numbers(void)
+
+void more_numbers(void)
 {
-	int x,y;
-	for(x=0; x<10;x++)
+
+int i, j;
+	for (i = 1; i <= 10; i++)
 	{
-		for (y=0; y<=14;y++)
-	{
-		if (y>0)
+		for (j = 0; j <= 14; j++)
 		{
-			_putchar((y/10)+'0');
+			if (j >= 10)
+			_putchar('1');
+			_putchar(j % 10 + '0');
 		}
-		_putchar((y%10) + '0');
-	}
-		_putchar('\n');
-	}
+			_putchar('\n');
+		}
 }
